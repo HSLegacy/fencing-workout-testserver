@@ -1,13 +1,13 @@
 ---
 layout: default
-title: BoxingTimer App Setup
+title: BoxingiTimer App Setup
 ---
 
-# BoxingTimer App Setup
+# BoxingiTimer App Setup
 
-The BoxingTimer app is a great tool for timing our workouts. Here's how to set it up:
+The BoxingiTimer app is a great tool for timing our workouts. Here's how to set it up:
 
-1. Download the BoxingTimer app from your device's app store.
+1. Download the BoxingiTimer app from your device's app store.
 2. Open the app and create a new timer.
 3. Set up the following intervals:
    - Work Time: 20 seconds
