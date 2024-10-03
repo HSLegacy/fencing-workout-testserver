@@ -1,22 +1,35 @@
-
 ---
 layout: default
-title: Fencing Workout Hub
+title: Home
 ---
 
-# Welcome to the Fencing Workout Hub
+# Welcome to Woodlands International Fencing Club Strength & Conditioning Hub
 
-Here you'll find our weekly workout schedules, mental training tips, and resources to help you excel in fencing.
+🤺 Forge your path to fencing excellence! 🏆
 
-## Quick Links
+## Our Mission
 
-- [This Week's Workouts](workouts.html)
-- [Mental Training](mental-training.html)
-- [Workout Calendar](calendar.html)
-- [BoxingTimer App Setup](boxing-timer.html)
+At Woodlands International Fencing Club, we believe that true mastery of fencing comes from a holistic approach to training. Our Strength & Conditioning Hub is designed to elevate your fencing game by focusing on:
 
-## Announcements
+- 💪 Physical Conditioning
+- 🧠 Mental Fortitude
+- 🍏 Nutritional Excellence
 
-- Group workouts are every Thursday at the club.
-- Don't forget to do your 30-minute workouts on non-group days!
-- Check the [calendar](calendar.html) for the full schedule.
+## What We Offer
+
+- [Group Workouts](group-workouts.html): Intense, fencing-specific training sessions every Thursday.
+- [Individual Workouts](individual-workouts.html): Daily routines to keep you in top form.
+- [Mental Training](mental-training.html): Techniques to sharpen your mind for competition.
+- [Nutrition Guide](diet.html): Fuel your body for peak performance.
+- [Workout Calendar](calendar.html): Stay on track with our structured program.
+- [BoxingTimer App Guide](boxing-timer.html): Learn how to use this essential training tool.
+
+## Get Started
+
+1. Check out our [Workout Calendar](calendar.html) to plan your week.
+2. Set up the [BoxingTimer App](boxing-timer.html) for perfectly timed workouts.
+3. Join us every Thursday for group training, and follow the individual workouts on other days.
+
+Remember, champions are made when no one is watching. Let's train hard and fence smart!
+
+🏅 En garde, ready, fence your way to greatness! 🏅

@@ -3,8 +3,6 @@ layout: default
 title: Group Workouts
 ---
 
-# Group Workouts
-
 ## Thursday Club Workout (50 Minutes)
 
 ### Part 1: Rotational Exercises (15 Minutes)
@@ -79,5 +77,3 @@ Note: Adjust the number of participants at each station based on total group siz
 * Positive Affirmations and Goal Setting:
    * Lead a brief session where each fencer sets a personal goal for the next week.
    * Encourage sharing of positive experiences or improvements noticed.
-
-[Back to Home](index.html)
