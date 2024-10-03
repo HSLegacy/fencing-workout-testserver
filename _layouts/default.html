@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - Woodlands International Fencing Club</title>
-    <link rel="icon" type="image/png" href="fencing-workout/assets/favicon.png">
+    <link rel="icon" type="image/png" href="/fencing-workout/assets/favicon.png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,20 +27,22 @@
         .header-content {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-start;
         }
         .logo-container {
             display: flex;
             align-items: center;
         }
         .logo-container img {
-            height: 80px;
+            height: 120px;
+            width: auto;
             margin-right: 20px;
         }
         header h1 {
             font-family: Georgia, serif;
             margin: 0;
-            font-size: 1.8em;
+            font-size: 2em;
+            max-width: 60%;
         }
         nav {
             background-color: #FFD700;
@@ -91,8 +93,8 @@
     <header>
         <div class="container header-content">
             <div class="logo-container">
-              <img src="/fencing-workout/assets/logo.png" alt="Woodlands International Fencing Club Logo" onerror="this.onerror=null;this.src='/assets/logo.png';">
-              <h1>Woodlands International Fencing Club</h1>
+                <img src="/fencing-workout/assets/logo.png" alt="Woodlands International Fencing Club Logo" onerror="this.onerror=null;this.src='/assets/logo.png';">
+                <h1>Woodlands International Fencing Club</h1>
             </div>
         </div>
     </header>
@@ -105,7 +107,7 @@
                 <li><a href="mental-training.html">Mental Training</a></li>
                 <li><a href="diet.html">Nutrition</a></li>
                 <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="boxing-timer.html">BoxingiTimer App</a></li>
+                <li><a href="boxing-timer.html">BoxingTimer App</a></li>
             </ul>
         </div>
     </nav>
