@@ -4,51 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - Woodlands International Fencing Club</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
             background-color: #FFFAF0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
         header {
             background-color: #8B2323;
             color: #FFD700;
-            text-align: center;
-            padding: 1rem;
-            margin-bottom: 20px;
+            padding: 1rem 0;
+        }
+        .header-content {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
         }
-        header img {
-            height: 50px;
-            margin-right: 15px;
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 80px;
+            margin-right: 20px;
         }
         header h1 {
             font-family: Georgia, serif;
             margin: 0;
+            font-size: 1.8em;
         }
         nav {
             background-color: #FFD700;
-            padding: 10px;
-            margin-bottom: 20px;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
         }
         nav a {
             color: #8B2323;
             text-decoration: none;
             padding: 5px 10px;
+            font-weight: bold;
         }
         nav a:hover {
             background-color: #8B2323;
             color: #FFD700;
         }
-        h1, h2, h3 {
-            color: #8B2323;
+        main {
+            padding: 20px 0;
         }
         .content {
             background-color: white;
@@ -57,10 +73,12 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             border-left: 3px solid #228B22;
         }
+        h1, h2, h3 {
+            color: #8B2323;
+        }
         footer {
             text-align: center;
-            margin-top: 20px;
-            padding: 10px;
+            padding: 10px 0;
             background-color: #8B2323;
             color: #FFD700;
         }
@@ -71,24 +89,37 @@
 </head>
 <body>
     <header>
-        <!-- Add your logo here. Upload 'logo.png' to your repository and update the src path -->
-        <img src="logo.png" alt="Woodlands International Fencing Club Logo">
-        <h1>Woodlands International Fencing Club</h1>
+        <div class="container header-content">
+            <div class="logo-container">
+                <img src="/assets/logo.png" alt="Woodlands International Fencing Club Logo">
+                <h1>Woodlands International Fencing Club</h1>
+            </div>
+        </div>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="group-workouts.html">Group Workouts</a>
-        <a href="individual-workouts.html">Individual Workouts</a>
-        <a href="mental-training.html">Mental Training</a>
-        <a href="diet.html">Nutrition</a>
-        <a href="calendar.html">Calendar</a>
-        <a href="boxing-timer.html">BoxingTimer App</a>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="group-workouts.html">Group Workouts</a></li>
+                <li><a href="individual-workouts.html">Individual Workouts</a></li>
+                <li><a href="mental-training.html">Mental Training</a></li>
+                <li><a href="diet.html">Nutrition</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="boxing-timer.html">BoxingTimer App</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="content">
-        {{ content }}
-    </div>
+    <main>
+        <div class="container">
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2024 Woodlands International Fencing Club. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Woodlands International Fencing Club. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
