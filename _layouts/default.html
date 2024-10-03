@@ -87,6 +87,42 @@
         a {
             color: #8B2323;
         }
+        .menu-toggle {
+            display: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #8B2323;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+            .logo-container img {
+                height: 60px;
+            }
+            header h1 {
+                font-size: 1.2em;
+                max-width: 100%;
+            }
+            .menu-toggle {
+                display: block;
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul.show {
+                display: flex;
+            }
+            nav li {
+                margin: 5px 0;
+            }
+            .content {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -100,6 +136,7 @@
     </header>
     <nav>
         <div class="container">
+            <div class="menu-toggle">☰</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="group-workouts.html">Group Workouts</a></li>
@@ -123,5 +160,10 @@
             <p>&copy; 2024 Woodlands International Fencing Club. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
 </body>
 </html>
